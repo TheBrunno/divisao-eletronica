@@ -1,0 +1,88 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: linear-gradient(to right, #d4fc79 0%, #96e6a1 100%);
+    font-family: "Quicksand", sans-serif;
+}
+header{
+    padding: 50px 0 0 0;
+    text-align: center;
+    height: 280px;
+    width: 100%;
+}
+header h1{
+    font-family: "Sanchez", serif;
+    font-size: 5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+#simb{
+    font-size: 10em;
+    font-family: "Sanchez", serif;
+}
+#num-atomico, #massa-atomica{
+    font-size: 1.8em;
+}
+main{
+    display: flex;
+}
+main .text{
+    text-align: justify;
+    width: 800px;
+    margin: 0 0 0 50px;
+    font-size: 1.4em
+}
+.camp{
+    margin: 40px auto 0 auto;
+    text-align: center;
+    background-color: rgb(35, 38, 46);
+    height: auto;
+    color: white;
+    width: 460px;
+    padding:20px;
+    border-radius: 24px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.305);
+}
+.camp input#confirm, input#num-atomico-pass{
+    margin-top: 20px;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 0.8em;
+    background-color: inherit;
+    border: 2px solid #3498db;
+    color: white;
+    border-radius: 24px;
+    outline: none;
+    transition: 0.25s;
+}
+.camp input#confirm{
+    width: 150px;
+}
+.camp input#confirm:hover{
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+.camp input#num-atomico-pass{
+    width: 300px;
+}
+
+.camp input#num-atomico-pass:focus{
+    border-color: #2ecc71;
+    width: 400px;
+}
+#bold{
+    font-weight: bold;
+}
+.element{
+    padding: 10px 0;
+    box-sizing: border-box;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.205);
+    margin: 0 auto;
+}

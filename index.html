@@ -6,8 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divisão Eletrônica</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Sanchez&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>
+            Divisão Eletrônica
+        </h1>
+    </header>
+    <main>
+        <section class="text">
+            <p>
+                Este site foi criado por <span id="bold">Bruno Silva de Oliveira</span>, e tem como objetivo servir como uma "<span id="bold">calculadora</span>" para fazer divisão eletrônica. <br>Para isso, basta inserir o <span id="bold">número atômico</span> no campo abaixo.
+            </p>
+            <div class="camp">
+                <p>Verificação:</p>
+                <input type="text" placeholder="Número atômico" id="num-atomico-pass">
+                <br>
+                <input type="button" value="Confirmar" id="confirm">
+            </div>
+        </section>
+        <section class="element">
+            <div id="num-atomico">55</div>
+            <div id="simb">Cs</div>
+            <div id="massa-atomica">132,9</div>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
